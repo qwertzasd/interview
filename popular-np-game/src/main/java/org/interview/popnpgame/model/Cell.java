@@ -7,12 +7,10 @@ public class Cell {
 
     private int x;
     private int y;
-    private int color;
 
-    public Cell(int x, int y, int color) {
+    public Cell(int x, int y) {
         this.x = x;
         this.y = y;
-        this.color = color;
     }
 
     public int getX() {
@@ -23,10 +21,6 @@ public class Cell {
         return y;
     }
 
-    public int getColor() {
-        return color;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -35,15 +29,13 @@ public class Cell {
         Cell cell = (Cell) o;
 
         if (x != cell.x) return false;
-        if (y != cell.y) return false;
-        return color == cell.color;
+        return y == cell.y;
     }
 
     @Override
     public int hashCode() {
         int result = x;
         result = 31 * result + y;
-        result = 31 * result + color;
         return result;
     }
 }
