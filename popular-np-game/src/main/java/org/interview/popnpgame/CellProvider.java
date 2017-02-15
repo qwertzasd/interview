@@ -13,13 +13,11 @@ public class CellProvider {
 
     private Board board;
     private List<Cell> selectedCells;
-    private HashSet<Cell> visited;
 
     public CellProvider(Board board) {
         this.board = board;
         this.selectedCells = new ArrayList<>();
         selectedCells.add(new Cell(0,0));
-        visited = new HashSet<>();
     }
 
     public List<Cell> getConnectedCells() {
@@ -29,18 +27,16 @@ public class CellProvider {
 
         LinkedList<Cell> que = new LinkedList<>();
         que.add(origin);
-        result.add(origin);
 
         while( !que.isEmpty() ){
             Cell currentCell = que.getFirst();
-            //result.add(currentCell);
             List<Cell> tempList = new ArrayList<>(getSameColoredNeigbouringCells(currentCell, originColor));
             que.remove(currentCell);
+            result.add(currentCell);
 
             for(Cell c : tempList){
-                if( !result.contains(c) ){
+                if( !result.contains(c) && !que.contains(c) ){
                     que.addLast(c);
-                    result.add(c);
                 }
             }
         }
@@ -60,7 +56,7 @@ public class CellProvider {
             if( board.getColor(tempCell.getX(), tempCell.getY()) == originColor ){
                 result.add(tempCell);
             }
-                    }
+        }
         //left neighbour
         if( (x + 1) < board.getBoardSize() ){
             Cell tempCell = new Cell(x + 1, y);
