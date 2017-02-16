@@ -11,12 +11,17 @@ public class NodeProvider {
     private List<Node> clusterNodes;
 
     public NodeProvider() {
-        clusterNodes = Node.getCluster();
+        //clusterNodes = Node.getCluster();
+        clusterNodes = new ArrayList<>();
     }
 
     public List<Node> getNodes(List<VirtualMachine> virtualMachines) {
         for( VirtualMachine currentVm : virtualMachines){
-            getNode(currentVm).addVmToANode(currentVm);
+            Node tempNode = getNode(currentVm);
+            tempNode.addVmToANode(currentVm);
+            if(!clusterNodes.contains(tempNode)){
+                clusterNodes.add(tempNode);
+            }
         }
         return clusterNodes;
     }

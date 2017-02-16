@@ -27,23 +27,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NodeProvider.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NodeProvider.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/interview/vmnodecalc/NodeProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="36" column="55" lean-forward="false" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+            <state relative-caret-position="420">
+              <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NodeProviderTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/interview/vmnodecalc/model/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="55" column="7" lean-forward="true" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NodeProviderTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/interview/vmnodecalc/NodeProviderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="711">
-              <caret line="53" column="89" lean-forward="false" selection-start-line="53" selection-start-column="89" selection-end-line="53" selection-end-column="89" />
+            <state relative-caret-position="187">
+              <caret line="54" column="70" lean-forward="false" selection-start-line="54" selection-start-column="70" selection-end-line="54" selection-end-column="70" />
               <folding>
-                <element signature="e#1042#1058#0" expanded="true" />
+                <element signature="e#964#980#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,8 +89,8 @@
         <option value="$PROJECT_DIR$/src/test/java/org/interview/vmnodecalc/NodeProvider.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/interview/vmnodecalc/model/VirtualMaschine.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/interview/vmnodecalc/model/Cluster.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/interview/vmnodecalc/model/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/interview/vmnodecalc/NodeProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/interview/vmnodecalc/model/Node.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/interview/vmnodecalc/NodeProviderTest.java" />
       </list>
     </option>
@@ -175,6 +185,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="vmnodecalc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vmnodecalculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vmnodecalculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vmnodecalc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -560,9 +600,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NodeProviderTest - 2017.02.15 at 16h 54m 12s.xml">
-      <configuration name="NodeProviderTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="NodeProviderTest - 2017.02.15 at 22h 43m 14s.xml">
       <configuration name="NodeProviderTest" configurationId="JUnit" />
     </history-entry>
@@ -581,18 +618,21 @@
     <history-entry file="NodeProviderTest - 2017.02.16 at 09h 17m 06s.xml">
       <configuration name="NodeProviderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NodeProviderTest_oneVmShouldReturnListWithThreeNode - 2017.02.15 at 16h 56m 39s.xml">
-      <configuration name="NodeProviderTest.oneVmShouldReturnListWithThreeNode" configurationId="JUnit" />
+    <history-entry file="NodeProviderTest - 2017.02.16 at 11h 43m 26s.xml">
+      <configuration name="NodeProviderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NodeProviderTest_oneVmShouldReturnListWithThreeNode - 2017.02.15 at 22h 42m 58s.xml">
-      <configuration name="NodeProviderTest.oneVmShouldReturnListWithThreeNode" configurationId="JUnit" />
+    <history-entry file="NodeProviderTest - 2017.02.16 at 12h 29m 43s.xml">
+      <configuration name="NodeProviderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NodeProviderTest - 2017.02.16 at 13h 15m 01s.xml">
+      <configuration name="NodeProviderTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="NodeProviderTest_oneVmShouldReturnListWithThreeNode - 2017.02.15 at 22h 50m 48s.xml">
       <configuration name="NodeProviderTest.oneVmShouldReturnListWithThreeNode" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -604,7 +644,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -740,35 +780,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/interview/vmnodecalc/NodeProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/interview/vmnodecalc/model/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-458">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1247#1248#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1327#1328#0" expanded="true" />
-            <element signature="e#1373#1374#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="362">
+          <caret line="55" column="7" lean-forward="true" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/interview/vmnodecalc/NodeProviderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="711">
-          <caret line="53" column="89" lean-forward="false" selection-start-line="53" selection-start-column="89" selection-end-line="53" selection-end-column="89" />
+        <state relative-caret-position="187">
+          <caret line="54" column="70" lean-forward="false" selection-start-line="54" selection-start-column="70" selection-end-line="54" selection-end-column="70" />
           <folding>
-            <element signature="e#1042#1058#0" expanded="true" />
+            <element signature="e#964#980#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/interview/vmnodecalc/NodeProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="36" column="55" lean-forward="false" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>

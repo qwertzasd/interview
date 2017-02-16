@@ -12,7 +12,7 @@ public class Node {
     private int cpu, disk, network;
     private List<VirtualMachine> alreadyRunningVms;
 
-    private static List<Node> cluster = new ArrayList<>();
+    //private static List<Node> cluster = new ArrayList<>();
 
     private Node() {
         this.cpu = 100;
@@ -23,7 +23,7 @@ public class Node {
 
     public static Node getNode(){
         Node newNode = new Node();
-        cluster.add(newNode);
+        //cluster.add(newNode);
         return newNode;
     }
 
@@ -51,9 +51,9 @@ public class Node {
         return network - sum;
     }
 
-    public static List<Node> getCluster() {
-        return cluster;
-    }
+//    public static List<Node> getCluster() {
+//        return cluster;
+//    }
 
     public void addVmToANode(VirtualMachine vm){
         this.alreadyRunningVms.add(vm);
