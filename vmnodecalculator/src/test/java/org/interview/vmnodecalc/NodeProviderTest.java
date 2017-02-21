@@ -66,4 +66,23 @@ public class NodeProviderTest {
         List<Node> expected = Arrays.asList(Node.getNode(), Node.getNode());
         assertEquals(expected.size(), underTest.getNodes(input).size());
     }
+
+
+    @Test
+    public void fiveSmallVmShouldReturnListWithThreeNode() {
+        //GIVEN
+        NodeProvider underTest = new NodeProvider();
+        //WHEN
+
+        List<VirtualMachine> input = new ArrayList<>(Arrays.asList(
+                new VirtualMachine(40,40,40),
+                new VirtualMachine(70,40,40),
+                new VirtualMachine(20,40,40),
+                new VirtualMachine(5,40,40),
+                new VirtualMachine(50,40,40)));
+
+        //THEN
+        List<Node> expected = Arrays.asList(Node.getNode(), Node.getNode(), Node.getNode());
+        assertEquals(expected.size(), underTest.getNodes(input).size());
+    }
 }
